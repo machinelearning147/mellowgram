@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Production build output
+dist/
+build/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Vercel / Deployment
+.vercel
+.vercel_build_output
+
+# Local cache / logs
+*.log
+*.cache
+.cache/
+tmp/
+temp/
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
