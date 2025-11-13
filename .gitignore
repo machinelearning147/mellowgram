@@ -5,6 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # Production build output
 dist/
@@ -36,5 +38,6 @@ temp/
 # Test coverage
 coverage/
 
-# Misc
-*.local
+# Python / backend (if you add backend later)
+__pycache__/
+.venv/

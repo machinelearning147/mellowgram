@@ -1,0 +1,1 @@
+module.exports = { content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"], theme: { extend: { colors: { 'bg-surface': '#FFFDF8','bg-card': '#FFFFFF','accent-lav': '#F6E7FF','accent-peach': '#FFF1EA','accent-mint': '#E8FFF6','text-primary': '#1B1B1F','text-muted': '#5E5E63' }, borderRadius: { 'xlsoft': '24px' } } }, plugins: [] }
